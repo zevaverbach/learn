@@ -1,0 +1,1 @@
+- the [`chess` repo](https://github.com/zevaverbach/chess-front) will be a good platform for this, I think.
