@@ -7,6 +7,10 @@ Trying to understand what's happening at a somewhat low level with TCP, let's lo
 - [ ] support POST requests
 - [ ] do some infosec
 - [ ] port to Python or Rust
+- [ ] look at `netcat.c` and `netcat.h`, see if you can decipher what's happening
+    - [ ] try porting it to Rust?
+      - could use existing attempts
+         - [1](https://github.com/Dhole/rust-netcat)
 
 # Resources
 - https://www.varonis.com/blog/netcat-commands
