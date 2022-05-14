@@ -1,0 +1,6 @@
+- [discrete math](file:///Users/zev/Documents/1588493195-discretemathematics-text-book.pdf)
+		- bookmark: page 6
+		- [college algebra](https://www.mathsisfun.com/algebra/index-college.html)
+- [algo design](file:///Users/zev/Documents/SkienaTheAlgorithmDesignManual.pdf)
+- [leetcode](https://leetcode.com/discuss/career/450215/How-to-use-LeetCode-to-help-yourself-efficiently-and-effectively-(for-beginners))
+		- a couple hours a day of this once the above items are internalized
