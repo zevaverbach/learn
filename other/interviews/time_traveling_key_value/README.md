@@ -1,0 +1,1 @@
+This was from a mock interview I did with a Recurser in fall 2022. Her feedback was that 1) I could have been a bit more aggressive in asking questions or adding features, but that 2) she would have given me the thumbs-up.
