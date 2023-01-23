@@ -1,0 +1,70 @@
+.opening {
+  &__title {
+    @extend %flex-center-nowrap;
+    margin-bottom: 3rem;
+  }
+  &__name {
+    line-height: 1em;
+    &__section {
+      font-size: 0.8em;
+    }
+    &__section--1 {
+      font-size: 1em;
+    }
+  }
+  &__intro {
+    display: flex;
+    flex-flow: column;
+    @include breakpoint($mq-x-small) {
+      flex-flow: row;
+    }
+    gap: $block-gap;
+    margin-bottom: 3em;
+    &__result-lpv {
+      flex: 0 0 100%;
+      @include breakpoint($mq-x-small) {
+        flex: 0 0 calc(300px + #{$result-width});
+      }
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: stretch;
+    }
+    &__result {
+      @extend %box-radius-left;
+      overflow: hidden;
+    }
+    .lpv {
+      flex: 0 0 calc(100% - #{$result-width});
+      @include breakpoint($mq-x-small) {
+        flex: 0 0 300px;
+      }
+    }
+    &__content {
+      @extend %flex-column;
+      justify-content: space-between;
+      flex: 1 1 auto;
+      gap: $block-gap;
+    }
+    &__actions {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: flex-start;
+      gap: 2em;
+    }
+    &__text {
+      @extend %box-neat;
+      background: $c-bg-zebra;
+      padding: 1em 2em;
+      flex: 1 1 auto;
+    }
+  }
+  &__popularity {
+    &__chart {
+      height: 10vh;
+      max-height: 150px;
+    }
+    @include breakpoint($mq-not-xx-small) {
+      display: none;
+    }
+  }
+}

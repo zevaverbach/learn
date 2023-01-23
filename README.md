@@ -21,3 +21,10 @@ I never returned to algo questions, instead diving into C++ then C. How I arrive
 There is of course a tension between this sort of deep dive and the goal of getting a new job. I feel the tension but I also really enjoy exploring C, and I'm excited at the prospect of being able to understand and contribute to things like cpython, neovim, Arduino, etc.
 
 Ah, and to continue the thread from October, I did build a back end for a new, fully automated transcription company, and about half of a front end. I'd like to return to it, which is another source of tension. The pull is stronger towards "understanding the machine" and C for now, and I'd like to explore building something useful as soon as possible using C, including possibly something related to transcription.
+
+# Jan 23, 2023
+
+Going for the [Teach Yourself CS][1] path, with some additions (see [this doc][2])
+
+[1]:https://teachyourselfcs.com/
+[2]:LEARNING_PATH.md

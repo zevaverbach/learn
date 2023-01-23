@@ -1,0 +1,33 @@
+@import 'themes';
+@import 'openings';
+@import 'of-player';
+
+h2#openings {
+  @extend %flex-between;
+  margin: 1em 0;
+  a {
+    font-size: 1rem;
+  }
+}
+
+.help {
+  @extend %box-padding-horiz, %box-radius;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background: $c-bg-zebra;
+
+  &-touchscreen {
+    display: none;
+  }
+  &-keyboard {
+    display: block;
+  }
+}
+@media (hover: none) {
+  &-touchscreen {
+    display: block;
+  }
+  &-keyboard {
+    display: none;
+  }
+}
